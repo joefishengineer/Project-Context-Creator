@@ -1,0 +1,25 @@
+# Whitelist: only files needed to run the tool + user docs are tracked.
+# Everything else in this folder (builds, videos, data, client docs,
+# dev notes, scratch scripts) stays local.
+/*
+
+!/.gitignore
+!/.gitattributes
+!/LICENSE
+!/README.md
+!/CONSOLIDATION_GUIDE.md
+!/TROUBLESHOOTING.md
+!/requirements.txt
+!/config.example.json
+!/install.py
+!/launch_gui.py
+!/setup.py
+!/context_creator_gui_v2.py
+!/consolidate_by_initiative.py
+!/converters/
+!/docs/
+
+__pycache__/
+*.py[cod]
+*.log
+config.json

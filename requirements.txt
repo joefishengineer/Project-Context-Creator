@@ -1,0 +1,26 @@
+# Project Context Creator - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+pdf2image>=1.16.0
+pytesseract>=0.3.10
+Pillow>=9.0.0
+python-docx>=0.8.11
+python-pptx>=0.6.21
+openpyxl>=3.0.10
+
+# Hybrid PDF converters (v1.4.0+)
+PyMuPDF>=1.23.0
+pdfplumber>=0.10.0
+PyPDF2>=3.0.0
+
+# Optional: Video transcription
+# Uncomment the line below if you need MP4 video transcription
+# faster-whisper>=1.0.0
+
+# Web/Electron app back-end server
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+python-multipart>=0.0.9   # required for file uploads (UploadFile)
+aiofiles>=23.2.1           # required for StaticFiles

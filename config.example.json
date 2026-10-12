@@ -1,0 +1,12 @@
+{
+  "skip_options": {
+    "skip_mp4": false,
+    "skip_large_files": false,
+    "skip_large_threshold_mb": 500,
+    "exclude_folder_patterns": ["Archive", "_archive", "OLD", "Do Not Use"]
+  },
+  "output": {
+    "default_output_subfolder": "_markdown"
+  },
+  "version": "1.0"
+}
